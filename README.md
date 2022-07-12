@@ -1,2 +1,30 @@
-# rock-paper-scissors
-Rock Paper Scissors Project
+
+# Rock Paper Scissors Game
+## Description
+This is a simple game of rock-paper-scissors in which you compete against the computer to see who wins according to the following rules:
+1. Rock beats Scissors
+2. Paper beats Rock
+3. Scissors beats Paper
+
+The game ends in a draw if you and the computer both pick the same selection (i.e., Rock-vs-Rock, Paper-vs-Paper, Scissors-vs-Scissors)
+
+## Environment Setup
+In order to run this game, you'll need to set up your environment appropriately. These instructions assume that you have already installed anaconda on your device of choice. To set up your environment, run the following command:
+
+    conda create -n rock-paper-scissors python=3.8
+
+Python versions 3.9 and 3.10 can also work.
+
+## Running the Game
+After setting up your environment, activate it by running the following command:
+
+    conda activate rock-paper-scissors
+
+Once the environment has been activated, you can run the game as follows:
+
+    python game.py
+
+
+
+
+
