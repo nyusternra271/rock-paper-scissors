@@ -38,5 +38,12 @@ You will be prompted to enter a selection (case does not matter). You should see
     Thanks for playing. Please play again
 
 
+The game will end abruptly with an error if you don't make a valid selection:
+
+    -------------------
+    Welcome 'Player One' to my Rock-Paper-Scissors game...
+    -------------------
+    Please choose either 'rock', 'paper', or 'scissors':water
+    You entered an invalid choice. Please rerun the program and select 'rock', 'paper', or 'scissors'
 
 

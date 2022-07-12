@@ -13,7 +13,7 @@ valid_options=["rock", "paper", "scissors"]
 user_input=input("Please choose either 'rock', 'paper', or 'scissors':")
 computer_selection=random.choice(valid_options)
 if not user_input.lower() in valid_options:
-   print("You entered an invalid choice. Please rerutn the program and select 'rock', 'paper', or 'scissors'")
+   print("You entered an invalid choice. Please rerun the program and select 'rock', 'paper', or 'scissors'")
    exit()
 else:
     print('You chose: '+user_input)
