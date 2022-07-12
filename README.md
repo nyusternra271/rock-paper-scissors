@@ -25,6 +25,7 @@ Once the environment has been activated, you can run the game as follows:
     python game.py
 
 You will be prompted to enter a selection (case does not matter). You should see the following:
+
     -------------------
     Welcome 'Player One' to my Rock-Paper-Scissors game...
     -------------------
