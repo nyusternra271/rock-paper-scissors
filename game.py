@@ -20,10 +20,9 @@ if not user_selection.lower() in valid_options:
    print("You entered an invalid choice. Please rerun the program and select 'rock', 'paper', or 'scissors'")
    exit()
 # if a valid choice is made, print it out along with the computer's random selection
-else:
-    print(f"You chose: {user_selection}")
-    print(f"The computer chose: {computer_selection}")
-    print('-------------------')
+print(f"You chose: {user_selection}")
+print(f"The computer chose: {computer_selection}")
+print('-------------------')
 
 # compare the user's choice to the computer's choice and determine the winner according to the rules of the game:
 # 1. Rock beats Scissors
